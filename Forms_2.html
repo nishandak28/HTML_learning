@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms With buttons</title>
+</head>
+<body>
+    <center>
+    
+    <h2>Creating a Form</h2>
+    <form>
+
+        <!--Simple name field-->
+        <label for = "name">Name:</label>
+        <input type="text" id="name" placeholder="Enter the email..." name="user_name">
+        <br>
+        <br>
+        <!--Email field checks weather entered text is email or not-->
+        <label for="email">Email:</label>
+        <input type="email" name="eid" id="email" placeholder="Enter email...">
+        <br>
+        <br>
+        <!--Password and making it nessesary to br filled-->
+        <label for="pass">Password:<span style="color: red;">*</span></label>
+        <input type="password" name="psw" id="pass" required>
+        <br>
+        <br>
+        <!--Mobile nuber using tel type so while typing it opens number in column & specify the current coutry code-->
+        <label for="mno">Mobile no:</label>
+        <input type="tel" id="mno" placeholder="Enter the phoneno.." name="mobileNo">
+        <br>
+        <br>
+        <!--Age can be entered increase and decrease in browser to && specifying min & max allowed-->
+        <label for="age">Age:</label>
+        <input type="number" id="age" min="10" max="80" name="age">
+
+        <input type="submit" >
+        <input type="reset" value="refresh"> 
+    </form>
+    </center>
+</body>
+</html>

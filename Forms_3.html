@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date & urls</title>
+</head>
+<body>
+    <h1>Forms using date,urls</h1>
+
+    <form>
+
+         <!--Simple name field-->
+        <label for = "name">Name:</label>
+        <input type="text" id="name" placeholder="Enter the email..." name="user_name">
+        <br>
+        <br>
+
+        <!--Email field checks weather entered text is email or not-->
+        <label for="email">Email:</label>
+        <input type="email" name="eid" id="email" placeholder="Enter email...">
+        <br>
+        <br>
+
+        <!--Password and making it nessesary to br filled-->
+        <label for="pass">Password:<span style="color: red;">*</span></label>
+        <input type="password" name="psw" id="pass" required>
+        <br>
+        <br>
+
+        <!--Date  time tags-->
+        <label for="b_d">Enter the date of birth</label>
+        <input type="date" id="b_d" placeholder="DD/MM/YY" required>
+        <br>
+        <br>
+
+        <!--URl tag-->
+        <label>Enter the webPage link</label>
+        <input type="url" placeholder="Enter the link"> 
+        <br>
+        <br>
+
+        <!--File uploading-->
+        <label>Upload the file</label>
+        <input type="file">
+
+        <!--Other tags-->
+        <label>Other tags</label>
+        <input type="image" >
+
+        <br>
+        <br>
+        <input type="submit" value="enter">
+    </form>
+</body>
+</html>
